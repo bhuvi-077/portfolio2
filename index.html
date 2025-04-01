@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7be7efb6a6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        
+        <div class="header-text">
+            <nav>
+                <h3 class="logo">Portfolio</h3>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Certifications</a></li>
+                    <li><a href="#portfolio">project</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+            <h1>Hi, I'm <span>Bhuvanesh Srinivasan</span>,<br>from SRM Easwari engineering College</h1>
+            <p>Welcome to my portfolio!</p>
+        </div>
+        <center><p class="thoughts">The best way to predict the future is to create it.</p></center>
+
+    </div>
+    <!--about---->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="bhuvi.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="justified">Hello! I am S Bhuvanesh. I am passionate about Leveraging in AI. This is my personal portfolio showcasing my skills and projects.I completed my schooling at Nellai Andar Matriculation Higher Secondary School. Currently, I am pursuing a degree in Artificial Intelligence and Data Science, maintaining a CGPA of 8.1 up to my 6th semester. I am passionate about leveraging AI and technology to create impactful solutions.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Internship</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/Ux</span><br>Designing Interfaces</li>
+                            <li><span>web development</span><br>web app development</li>
+                            <li><span>AI</span><br>Machine Learning</li>
+                            <li><span>Python</span><br>Programming Language</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Evolve Robot Lab</span><br>GENAI<br><a href="BHUVANESH INTERN CERTIFICATE.pdf" class="i-view">view certificate</a></li>
+                            
+                            <li><span>Prodigy Infotech</span><br> web app development<br><a href="webdevelopment online intern cert.pdf" class="i-view">view certificate</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Sree Iyappa Mat Hr Sec School</span><br>Completed my 10th and got 87%</li>
+                            <li><span>Nellai Nadar Mat Hr sec School</span><br>Completed my 12th and got 74%</li>
+                            <li><span>SRM Easwari Engineering College</span><br>Currently pursuing AIADS 3rd year and holding 8.1 cgpa</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------services------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">CERTIFICATIONS</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Introduction to MongoDB for Students</h2>
+                <p class="justified">The course covers essential topics such as database creation, data modeling, CRUD (Create, Read, Update, Delete) operations, indexing, and aggregation frameworks. This structured approach ensures a thorough understanding of MongoDB's capabilities.</p>
+                <a href="Mongodb cert.pdf">View certificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Oracle certified Foundations Associate</h2>
+                <p class="justified">The Oracle Certified Foundations Associate, Database certification demonstrates a candidate's understanding of various database models, components, and design principles. It covers topics such as SQL language, queries, and Entity-Relationship Diagram (ERD) modeling.</p>
+                <a href="Oracle.pdf">View certificate</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2 >Introduction to Generative AI</h2>
+                <p class="justified">Learners will explore the core concepts of generative AI, including its definition, operational mechanisms, and the different types of models utilized in this field.​
+
+                    Applications and Use Cases: The course delves into various applications of generative AI, highlighting how it's employed across different industries to create content, enhance creativity, and solve complex problems.</p>
+                <a href="GenAI.pdf">View certificate</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-aws"></i>
+                <h2>AWS Developer Associate: Optimizing AWS</h2>
+                <p class="justified">Optimizing AWS resources involves enhancing cost efficiency, performance, security, and reliability. Cost optimization can be achieved by right-sizing resources using AWS Compute Optimizer, leveraging Auto Scaling for dynamic scaling, and utilizing cost-effective options like Spot Instances, Reserved Instances, and S3 Glacier for infrequent data storage. .</p>
+                <a href="Mongodb cert.pdf">View certificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Foundations: Data, Data, Everywhere</h2>
+                <p class="justified">"Foundations: Data, Data, Everywhere" is a fundamental concept in data analytics, emphasizing the role of data in decision-making across industries. Data is generated from numerous sources, including social media, IoT devices, business transactions, and customer interactions. Organizations leverage this data to identify patterns, gain insights, and make informed decisions.</p>
+                <a href="Coursera foundations of data.pdf">View certificate</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python essentials 1 in Cisco Networking Academy</h2>
+                <p class="justified">Python Essentials 1 in Cisco Networking Academy is an introductory course designed to teach the fundamentals of Python programming. It covers essential concepts such as variables, data types, operators, loops, conditional statements, functions, and basic data structures like lists and dictionaries.</p>
+                <a href="python cisco.pdf">View certificate</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="r-parser.png">
+                
+                <div class="layer">
+                    <h3>Resume parser</h3>
+                    <p class="justified">Resume Parser is a web application that extracts relevant information from resumes and presents it in a structured format. It uses Natural Language Processing (NLP) techniques to analyze the content of resumes and extract key details such as name, contact information, and more.</p>
+                    <a href="https://github.com/bhuvi-077/Resume-Parser"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="l-s.png">
+                <div class="layer">
+                    <h3>linkdin scrapper</h3>
+                    <p class="justified">LinkedIn Scraper is a web application that extracts relevant information from LinkedIn profiles and presents it in a structured format. It uses web scraping techniques to gather data from LinkedIn profiles, including name, contact information, education, and more.</p>
+                    <a href="https://github.com/bhuvi-077/linkdin-scrapper"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="webdes.png" alt="web design">
+                <div class="layer">
+                    <h3>web designing</h3>
+                    <p class="justified">Web designing is the process of creating and designing websites. It involves a combination of visual design, user experience (UX) design, and technical skills to create visually appealing and functional websites.</p>
+                    <a href="https://github.com/bhuvi-077/UI-designing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<!-------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <!--<p>If you have any questions or would like to get in touch, feel free to reach out to me through the following channels:</p>--->
+                <p><i class="fa-solid fa-paper-plane"></i> yuvis1780@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> +91 9344860245</p>
+                <div class="social-icons">
+                    <a href="https://github.com/bhuvi-077"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/BhuvaneshS29773"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://leetcode.com/u/Bhuvanesh__S/"><i class="fa-solid fa-magnifying-glass-arrow-right"></i></a>
+                    <a href="https://www.linkedin.com/in/bhuvanesh-s-4a81022a7/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="resume.pdf" download class="btn btn2">Download cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span> 
+            </div>
+        </div>
+    </div>
+    
+</div>
+<footer>
+    <div class="copyright">
+        <p>&copy; 2023 Bhuvanesh. All rights reserved.</p>
+    </div>
+</footer>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "0";
+    }
+</script>
+
+
+  
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzbyPfqYB8Gw8bUQQiupRfXnf3eK_vYVdyMvqJRsgKs_RT2wB0xyNsDtGy0HxQKv2bOwA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 3000);
+            form.reset()
+        })
+        
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+    
+    
+    
+</body>
+</html>
